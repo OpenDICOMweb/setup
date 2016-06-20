@@ -24,13 +24,13 @@ using JetBrain's [WebStorm][WebStorm] as your editor (IDE).
 
 We recommend you do the following before getting started:
 
-1. [Install Java](#finstall_java)
-2. [Install Dart](#install_dart)
-3. [Install Webstorm](#install_webstorm)
-4. [Clone ODW Software Development Kit](#sdk)
-5. [Clone ODW Examples](#examples)
+1. [Install Java](#java-installation-and-setup)
+2. [Install Dart](#dart-installation-and-setup)
+3. [Install Webstorm](#webstorm-installation-and-setup)
+4. [Clone ODW Software Development Kit repository](#clone-odw-sdk-repository)
+5. [Clone ODW Examples examples](#clone-odw-examples)
     
-## <a name="install_java"></a>Java Installation and Setup
+## (#Java-Installation-and-Setup)
 
 1. Download and install Jave software. See https://java.com/en/download. 
 See https://java.com/en/download/help for help with installing Java.
@@ -49,7 +49,7 @@ See https://java.com/en/download/help for help with installing Java.
 _Note: Make sure that the longish your-unique-entries does not contain
  any other references to another Java installation folder_.
 
-## <a name="install_dart">Dart Installation </a>
+## (Dart-Installation-and-Setup)
 
 1. Create the standard 
 [ODW Dart directory structure](./dart_directory_structure.md)
@@ -67,12 +67,22 @@ from https://www.dartlang.org/downloads/archive.
     set PATH=%PATH%;C:/tools/dart/stable/sdk/dart-sdk-1.17.0/bin
     set PUB_CACHE: C:/tools/dart/pub/cache
 
-## <a name="install_webstorm"></a>Install WebStorm
+## (#WebStorm-Installation-and-Setup)
 
 1. TODO: Add WebStorm defaults. a. install software b. install setup files b.
    set environment variables
 
-1. TODO: Add Environment variables setup
+2. TODO: Add Environment variables setup
+
+## (#Clone-ODW-SDK-Repository)
+
+TODO:
+
+## (#Clone-ODW-Examples)
+
+Clone the [ODW Examples Repository][Examples].
+
+TODO:
 
 ## Features and bugs
 
