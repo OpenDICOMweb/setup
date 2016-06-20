@@ -1,14 +1,14 @@
 name: setup
-description: An example Open DICOMweb pubspec.yaml file.
-version: 0.0.1
+description: Standard ODW software environment setup.
+version: 0.1.1
 author: Jim Philbin <jfphilbin@gmail.com>
-#homepage: https://www.example.com
+homepage: https://github.com/OpenDICOMweb/setup
 
 environment:
   sdk: '>=1.0.0 <2.0.0'
 
-#dependencies:
-#  lib_name: any
+dependencies:
+  args: any
 
 dev_dependencies:
   test: '>=0.12.0 <0.13.0'
