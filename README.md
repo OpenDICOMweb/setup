@@ -102,5 +102,5 @@ Please file feature requests and bugs at the [issue tracker][tracker].
 
 [Examples]: https://github.com/OpenDICOMweb/examples
 
-[tracker]: http://github.com/OpendDICOMweb/issues/replaceme
+[tracker]: https://github.com/OpenDICOMweb/setup/issues
 
