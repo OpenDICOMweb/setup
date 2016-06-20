@@ -1,4 +1,4 @@
-### [Open DICOMweb] ([ODW])
+### [Open DICOMweb][ODW] ([ODW][ODW])
 # Software Development Environment Setup
 
 This document describes the standard software development environment
@@ -9,28 +9,28 @@ the ODW SDKs.
 Open DICOMweb (ODW) software is developed using the [Dart] programming
 language. Dart is an open-source, scalable programming language, with
 robust libraries and runtime systems, for building web, server, and
-mobile apps. See [dartlang.org] for more information.
+mobile apps. See [dartlang.org][dartlang] for more information.
 
-The ODW project repositories are hosted on [GitHub] at [Open DICOMweb].
+The ODW project repositories are hosted on [GitHub][GitHub] at [Open DICOMweb][ODW].
 
-The ODW project uses the [GitHub Flow] workflow. is a lightweight,
+The ODW project uses the [GitHub Flow][GitFlow] workflow. is a lightweight,
 branch-based workflow that supports teams and projects where deployments
-are made regularly. This [guide] explains how and why GitHub Flow works.
+are made regularly. This [guide][GitFlow] explains how and why GitHub Flow works.
 
 If you are planning to do development using Open DICOMweb, We recommend
-using JetBrain's [WebStorm] as your editor (IDE).
+using JetBrain's [WebStorm][WebStorm] as your editor (IDE).
 
 ## Getting Started Overview
 
 We recommend you do the following before getting started:
 
-1. [Install Java](#install_java)
+1. [Install Java](#finstall_java)
 2. [Install Dart](#install_dart)
 3. [Install Webstorm](#install_webstorm)
-4. Download the [ODW Software Development Kit]
-5. Download the [ODW Examples]
+4. [Clone ODW Software Development Kit](#sdk)
+5. [Clone ODW Examples](#examples)
     
-## Java Installation and Setup <a name="install_java"></a>
+## <a name="install_java"></a>Java Installation and Setup
 
 1. Download and install Jave software. See https://java.com/en/download. 
 See https://java.com/en/download/help for help with installing Java.
@@ -49,9 +49,11 @@ See https://java.com/en/download/help for help with installing Java.
 _Note: Make sure that the longish your-unique-entries does not contain
  any other references to another Java installation folder_.
 
-## Dart Installation <a name="install_dart"></a>
+## <a name="install_dart">Dart Installation </a>
 
-1. [Create the standard ODW Dart directory structure](./dart_directory_structure.md)
+1. Create the standard 
+[ODW Dart directory structure](./dart_directory_structure.md)
+
 2. Download the release (stable) or development (dev) versions of the 
 Dart:
     - sdk: See https://www.dartlang.org/tools/sdk.
@@ -65,7 +67,7 @@ from https://www.dartlang.org/downloads/archive.
     set PATH=%PATH%;C:/tools/dart/stable/sdk/dart-sdk-1.17.0/bin
     set PUB_CACHE: C:/tools/dart/pub/cache
 
-## [Install WebStorm]<a name="install_webstorm"></a>
+## <a name="install_webstorm"></a>Install WebStorm
 
 1. TODO: Add WebStorm defaults. a. install software b. install setup files b.
    set environment variables
@@ -76,22 +78,19 @@ from https://www.dartlang.org/downloads/archive.
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[Open DICOMweb], [ODW]: https://github.com/OpenDICOMweb 
+[ODW]: https://github.com/OpenDICOMweb 
 
 [Dart]: https://en.wikipedia.org/wiki/Dart_(programming_language)
 
-[dartlang.org]: https://www.dartlang.org/    
+[dartlang]: https://www.dartlang.org   
 
-[GitHub]: https://github.com/
+[GitHub]: https://github.com
 
-[GitHub Flow], [guide]: https://guides.github.com/introduction/flow/
+[GitFlow]: https://guides.github.com/introduction/flow
 
-[WebStorm]: https://www.jetbrains.com/webstorm/ [ODW Examples]:
+[WebStorm]: https://www.jetbrains.com/webstorm/ 
+
+[Examples]: https://github.com/OpenDICOMweb/examples
 
 [tracker]: http://github.com/OpendDICOMweb/issues/replaceme
 
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: https://github.com/OpenDICOMweb/setup/issues
