@@ -38,15 +38,15 @@ See https://java.com/en/download/help for help with installing Java.
 2. Add Java bin director to the System (if possible) or User environment
 "path" variable.
 
- For example, set the following user environment variables:
+For example, set the following user environment variables:
  
     JAVA_HOME : C:\Program Files\Java\jdk1.8.0_25
     JDK_HOME  : %JAVA_HOME%
     JRE_HOME  : %JAVA_HOME%\jre
     CLASSPATH : .;%JAVA_HOME%\lib;%JAVA_HOME%\jre\lib
     PATH      : your-unique-entries;%JAVA_HOME%\bin 
-    
-_Note: Make sure that the longish your-unique-entries does not contain
+ 
+**Note**: _Make sure that the longish your-unique-entries does not contain
  any other references to another Java installation folder_.
 
 ## <a id="dart-setup"></a>Dart Installation and Setup
@@ -54,18 +54,17 @@ _Note: Make sure that the longish your-unique-entries does not contain
 1. Create the standard 
 [ODW Dart directory structure](./dart_directory_structure.md)
 
-2. Download the release (stable) or development (dev) versions of the 
-Dart:
-    - sdk: See https://www.dartlang.org/tools/sdk.
-    - dartium: See https://www.dartlang.org/tools/dartium.
-    - doc: (only need to download this if you want to access it offline or more quickly)
+2. [Download][Download] the release (stable) or development (dev) versions of the Dart software. 
+      - [SDK][SDK]
+      - [Dartium][Dartium]
+      - [Documentation][Doc]
     
-from https://www.dartlang.org/downloads/archive.  
-    
-1. Setup environment variables. See https://www.dartlang.org/tools/pub/installing.html. For example on Windows:
+3. Setup [Dart environment variables][dart-env-var]. For example on Windows:
 
-    set PATH=%PATH%;C:/tools/dart/stable/sdk/dart-sdk-1.17.0/bin
-    set PUB_CACHE: C:/tools/dart/pub/cache
+```
+set PATH=%PATH%;C:/tools/dart/stable/sdk/dart-sdk-1.17.0/bin
+set PUB_CACHE: C:/tools/dart/pub/cache
+```
 
 ## <a id="webstorm-setup"></a>WebStorm Installation and Setup
 
@@ -89,18 +88,16 @@ TODO:
 Please file feature requests and bugs at the [issue tracker][tracker].
 
 [ODW]: https://github.com/OpenDICOMweb 
-
 [Dart]: https://en.wikipedia.org/wiki/Dart_(programming_language)
-
+[Download]: https://www.dartlang.org/downloads/archive
+[SDK]: https://www.dartlang.org/tools/sdk
+[Dartium]: https://www.dartlang.org/tools/dartium.
+[Doc]: https://www.dartlang.org/tools/doc.
+[dart-env-var]: https://www.dartlang.org/tools/pub/installing.html
 [dartlang]: https://www.dartlang.org   
-
 [GitHub]: https://github.com
-
 [GitFlow]: https://guides.github.com/introduction/flow
-
 [WebStorm]: https://www.jetbrains.com/webstorm/ 
-
 [Examples]: https://github.com/OpenDICOMweb/examples
-
 [tracker]: https://github.com/OpenDICOMweb/setup/issues
 

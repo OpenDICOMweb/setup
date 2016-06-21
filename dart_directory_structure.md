@@ -1,69 +1,86 @@
-### [Open DICOMweb] ([ODW])
+### [Open DICOMweb][ODW] ([ODW][ODW])
 # Dart Directory Structure
 
 - C:/tools/dart (the root for Dart Software)
     - [/bin](#bin)
     - [/dev](#dev)
-        - [/dartium](#dartium)
-        - [/doc](#doc) 
-        - [/sdk](#sdk)
+        - [/dartium](#dev-dartium)
+        - [/doc](#dev-doc) 
+        - [/sdk](#dev-sdk)
     - [/examples](#examples) 
     - [/pub](#pub)
-        - [/cache](#cache)
+        - [/cache](#pub-cache)
     - [/setup](#setup)
     - [/stable](#stable)
-        - [/dartium](#dartium)
-        - [/doc](#doc) 
-        - [/sdk](#sdk)
+        - [/dartium](#stable-dartium)
+        - [/doc](#stable-doc) 
+        - [/sdk](#stable-sdk)
     - [/tutorials](#tutorials)
+    - [/webstorm](#webstorm)
 
     
-    
-#### /tools/dart/bin<a href="bin"></a>
+<dl>
+ <dt><a id="bin"></a> **/tools/dart/bin**</dt>
+ <dd>This directory contains scripts for creating and managing the Dart
+     Directory structure and related software.<dd>
 
-This directory contains scripts for creating and managing the Dart
-Diectory Structure and related software.
+<dt> <a id="dev"></a>/tools/dart/dev</dt>
+<dd> The development (<em>dev</em>) version of Dart software. 
+See sub-directories below.</dd>
 
-#### /tools/dart/dev<a href="dev"></a>
-This directory contains the SDK, documentation and the Dartium runtime 
-system.
+<dt>  <a id="dev-dartium"></a>/tools/dart/dev/dartium</dt>
+<dd>This directory contains development (<em>dev</em>) versions of
+ the dart runtime.</dd>
 
-#### /tools/dart/dev/dartium <a href="dartium"></a>
-This directory contains _development_ versions of the dart runtime.
+<dt>  <a id="dev-doc"></a>/tools/dart/dev/doc (optional)</dt> 
+<dd>This directory contains documentation for development
+ (<em>dev</em>) versions of the
+SDK.</dd>
 
-#### /tools/dart/dev/doc (optional) <a href="doc"></a>
-This directory contains documentation for _development_ versions of the
-SDK.
+<dt>  <a id="dev-sdk"></a>/tools/dart/dev/sdk</dt>
+<dd>This directory contains development (<em>dev</em>) versions of the SDK.</dd>
 
-#### /tools/dart/dev/sdk <a href="sdk"></a>
-This directory contains development versions of the SDK.
+<dt>  <a id="examples"></a>/tools/dart/examples</dt>
+<dd>Example dart programs the can be downloaded from
+https://www.dartlang.org/samples.</dd>
 
-#### /tools/dart/examples<a href="examples"></a>
-Example dart programs the can be downloaded from
-https://www.dartlang.org/samples.
+  <dt>  <a href="pub"></a>/tools/dart/pub</dt>
+  <dd>This directory contains Dart 
+  <a id="pub" link= "https://pub.dartlang.org">pub</a> software.
+  </dd>
 
-#### /tools/dart/pub<a href="pub"></a>
-This directory contains Dart [pub] (http://pub.dartlang.org) software.
+<dt>  <a id="pub-cache"></a>/tools/dart/pub/cache</dt>
+<dd>This directory contains cached versions of <a href="pub">pub</a>
+ software used by the <a href="ODW">ODW SDK</a> and related software.</dd>
 
-#### /tools/dart/pub/cache<a href="pub_cache"></a>
-This directory contains cached versions of [pub] software used by the
-[ODW] SDK and related software.
+<dt>  <a id="setup"></a>/tools/dart/setup</dt>
+<dd>Setup files used to create the ODW/Dart software 
+development environment.</dd>
 
-#### /tools/dart/stable<a href="stable"></a>
+<dt>  <a id="stable"></a>/tools/dart/stable</dt>
+<dd>The released (<em>stable</em>) versions of Dart software.</dd>
 
-#### /tools/dart/stable/dartium <a href="dartium"></a>
-This directory contains development versions of the dart runtime.
+<dt>  <a id="stable-dartium"></a>/tools/dart/stable/dartium</dt>
+<dd>This directory contains the released (<em>stable</em>) 
+versions of the dart runtime.</dd>
 
-#### /tools/dart/stable/doc (optional) <a href="stable_doc"></a>
-This directory contains documentation for released (_stable_) versions
-of the SDK.
+<dt>  <a id="stable-doc"></a>/tools/dart/stable/doc (optional)</dt>
+<dd>This directory contains documentation for released 
+(<em>stable</em>) versions of the SDK.</dd>
 
-#### /tools/dart/stable/sdk <a href="stable_sdk"></a>
-This directory contains the released (_stable_) versions of the SDK.
+<dt>  <a id="stable-sdk"></a>/tools/dart/stable/sdk</dt>
+<dd>This directory contains the released (<em>stable</em>) versions of the SDK.</dd>
 
-#### /tools/dart/tutorials<a href="tutorials"></a>
+<dt>  <a id="tutorials"></a>/tools/dart/tutorials</dt>
+<dd>Software related to <a id="tutorials" link="">Dart Tutorials</a>
+should be downloaded here.</dd>
 
-Software related to
-[Dart Tutorials](https://www.dartlang.org/docs/tutorials/get-started)
-should be downloaded here.
+<dt>  <a id="webstorm"></a>/tools/dart/webstorm </dt>
+<dd> Setup files for 
+<a href="webstorm" 
+   link="https://www.dartlang.org/docs/tutorials/get-started">
+   WebStorm
+   </a> should be downloaded here.</dd>
+
+[ODW]: https://github.com/OpenDICOMweb 
 
