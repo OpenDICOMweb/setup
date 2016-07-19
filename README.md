@@ -29,36 +29,36 @@ We recommend you do the following before getting started:
 3. [Install Webstorm](#webstorm-setup)
 4. [Clone ODW Software Development Kit repository](#clone-sdk)
 5. [Clone ODW Examples examples](#clone-examples)
-    
+
 ## <a id="java-setup"></a>Java Installation and Setup
 
-1. Download and install Jave software. See https://java.com/en/download. 
+1. Download and install Jave software. See https://java.com/en/download.
 See https://java.com/en/download/help for help with installing Java.
 
 2. Add Java bin director to the System (if possible) or User environment
 "path" variable.
 
 For example, set the following user environment variables:
- 
+
     JAVA_HOME : C:\Program Files\Java\jdk1.8.0_25
     JDK_HOME  : %JAVA_HOME%
     JRE_HOME  : %JAVA_HOME%\jre
     CLASSPATH : .;%JAVA_HOME%\lib;%JAVA_HOME%\jre\lib
-    PATH      : your-unique-entries;%JAVA_HOME%\bin 
- 
+    PATH      : your-unique-entries;%JAVA_HOME%\bin
+
 **Note**: _Make sure that the longish your-unique-entries does not contain
  any other references to another Java installation folder_.
 
 ## <a id="dart-setup"></a>Dart Installation and Setup
 
-1. Create the standard 
+1. Create the standard
 [ODW Dart directory structure](./dart_directory_structure.md)
 
-2. [Download][Download] the release (stable) or development (dev) versions of the Dart software. 
+2. [Download][Download] the release (stable) or development (dev) versions of the Dart software.
       - [SDK][SDK]
       - [Dartium][Dartium]
       - [Documentation][Doc]
-    
+
 3. Setup [Dart environment variables][dart-env-var]. For example on Windows:
 
 ```
@@ -73,7 +73,7 @@ set PUB_CACHE: C:/tools/dart/pub/cache
 
 2. TODO: Add Environment variables setup
 
-## <a id="clone-sdk"></a>Clone ODW SDK Repository)
+## <a id="clone-sdk"></a>Clone ODW SDK Repository
 
 TODO:
 
@@ -87,17 +87,17 @@ TODO:
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[ODW]: https://github.com/OpenDICOMweb 
+[ODW]: https://github.com/OpenDICOMweb
 [Dart]: https://en.wikipedia.org/wiki/Dart_(programming_language)
 [Download]: https://www.dartlang.org/downloads/archive
 [SDK]: https://www.dartlang.org/tools/sdk
 [Dartium]: https://www.dartlang.org/tools/dartium.
 [Doc]: https://www.dartlang.org/tools/doc.
 [dart-env-var]: https://www.dartlang.org/tools/pub/installing.html
-[dartlang]: https://www.dartlang.org   
+[dartlang]: https://www.dartlang.org
 [GitHub]: https://github.com
 [GitFlow]: https://guides.github.com/introduction/flow
-[WebStorm]: https://www.jetbrains.com/webstorm/ 
+[WebStorm]: https://www.jetbrains.com/webstorm/
 [Examples]: https://github.com/OpenDICOMweb/examples
 [tracker]: https://github.com/OpenDICOMweb/setup/issues
 
